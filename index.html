@@ -8,45 +8,21 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-      <div id="unity-container" class="unity-desktop">
-          <canvas id="unity-canvas" width=640 height=360></canvas>
-          <div id="unity-loading-bar">
-              <div id="unity-logo"></div>
-              <div id="unity-progress-bar-empty">
-                  <div id="unity-progress-bar-full"></div>
-              </div>
-          </div>
-          <div id="unity-warning"> </div>
-          <div id="unity-footer">
-              <!-- <div id="unity-webgl-logo"></div> -->
-              <div id="unity-fullscreen-button"></div>
-              <div id="unity-build-title">TicTacToe</div>
-              <div>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9Nt4RlBsKi9s1_rMiCp453UmucmU_7KHJbL2Y15IoRbDLZg/viewform?usp=sharing"
-                     id="feedback-button" target="_blank" rel="noopener noreferrer">
-                      📝 Give Feedback
-                  </a>
-              </div>
-          </div>
-
-          <style>
-              #feedback-button {
-                  display: inline-block;
-                  padding: 8px 16px;
-                  background-color: #007bff;
-                  color: white;
-                  text-decoration: none;
-                  border-radius: 5px;
-                  font-weight: bold;
-                  transition: 0.3s ease-in-out;
-              }
-
-                  #feedback-button:hover {
-                      background-color: #0056b3;
-                  }
-          </style>
-
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=640 height=360></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
       </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">TicTacToe</div>
+      </div>
+    </div>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
